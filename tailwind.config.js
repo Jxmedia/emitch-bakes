@@ -5,7 +5,17 @@ module.exports = {
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      primary: ["Roboto Slab"],
+    },
+    extend: {
+      dropShadow: {
+        glow: [
+          "0 0px 5px rgba(255,255, 255, 1)",
+          "0 0px 5px rgba(255, 255,255, 0.2)",
+        ],
+      },
+    },
   },
   plugins: [],
 }
