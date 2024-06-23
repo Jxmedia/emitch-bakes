@@ -9,16 +9,16 @@ const IndexPage = () => (
     <div class="font-primary relative overflow-hidden bg-[#ffc5f7]">
       <div class="relative pb-16 sm:pb-20">
         <main class="mx-auto max-w-7xl px-4 px-6">
-          <div class="flex justify-center items-end">
-            <div class="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none items-bottom">
+          <div class="lg:flex lg:justify-center items-end">
+            <div class="relative sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none items-bottom">
               <div class="relative mx-auto w-full lg:max-w-md">
                 <img class="w-full" src={Avatar} alt="" />
               </div>
             </div>
 
-            <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6">
-              <img class="w-3/4 mx-auto" src={LogoText} alt="" />
-              <p class="font-primary pt-5 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-4xl">
+            <div class="text-center md:mx-auto md:max-w-2xl lg:col-span-6">
+              <img class="mt-10 sm:mt-0 w-3/4 mx-auto" src={LogoText} alt="" />
+              <p class="font-primary pt-5 text-2xl text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-4xl">
                 homemade cookies{" "}
                 <span class="mt-2 block">shipped free nationwide</span>
               </p>
@@ -30,12 +30,13 @@ const IndexPage = () => (
       <div class="relative pb-16 sm:pb-24 lg:pb-32">
         <main class="mx-auto max-w-7xl px-4 px-6">
           <div class="">
-            <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6">
-              <p class="font-primary pt-5 text-base font-bold text-gray-900 sm:mt-14 sm:text-xl lg:text-lg xl:text-5xl">
+            <div class="text-center md:mx-auto md:max-w-2xl lg:col-span-6">
+              <p class="font-primary pt-5 mt-8 text-2xl font-bold text-gray-900 sm:mt-14 sm:text-5xl">
                 order by the dozen
               </p>
             </div>
-            <div class="mt-14 flex justify-center">
+
+            <div class="hidden md:flex mt-14  md:justify-center">
               <a href="#" class="relative hover:opacity-70">
                 <div class="relative w-full overflow-hidden rounded-3xl bg-gray-900 p-1">
                   <img
@@ -86,7 +87,7 @@ const IndexPage = () => (
                 <div class="relative w-full overflow-hidden rounded-3xl bg-gray-900 p-1">
                   <img
                     src="https://cdn.cosmicjs.com/8f23d5d0-30bc-11ef-adb1-8b946b3a80e4-sprinkles.png"
-                    alt="Chocolate dozen"
+                    alt="Sprinkles dozen"
                     class="rounded-3xl h-full w-full object-cover object-center"
                   />
                 </div>
@@ -106,16 +107,88 @@ const IndexPage = () => (
                 </div>
               </a>
             </div>
+
+            <div class="dozen mobile mt-14 md:hidden">
+              <a href="#" class="relative hover:opacity-70">
+                <div class="relative w-full overflow-hidden rounded-3xl bg-gray-900 p-1">
+                  <img
+                    src="https://cdn.cosmicjs.com/8f043fe0-30bc-11ef-adb1-8b946b3a80e4-choc.png"
+                    alt="Chocolate dozen"
+                    class="rounded-3xl h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <div class="drop-shadow-glow absolute top-5 right-4 overflow-hidden">
+                  <p class="relative text-5xl font-semibold text-[#e9009a] bg-[#fff6e8] rounded-full p-7">
+                    <span class="text-2xl absolute top-5 left-4">$</span>
+                    48
+                  </p>
+                </div>
+                <div class="text-center">
+                  <div class="-mt-20">
+                    <p class="mb-12 mx-2 drop-shadow-glow relative text-xl font-semibold text-gray-900 bg-[#ffc5f7] rounded-2xl py-4 pl-20 pr-20">
+                      chocolate chip
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="relative hover:opacity-70">
+                <div class="relative w-full overflow-hidden rounded-3xl bg-gray-900 p-1">
+                  <img
+                    src="https://cdn.cosmicjs.com/8f1b2340-30bc-11ef-adb1-8b946b3a80e4-choc-less.png"
+                    alt="Chocolate chipless dozen"
+                    class="rounded-3xl h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <div class="drop-shadow-glow absolute top-5 right-4 overflow-hidden">
+                  <p class="relative text-5xl font-semibold text-[#e9009a] bg-[#fff6e8] rounded-full p-7">
+                    <span class="text-2xl absolute top-5 left-4">$</span>
+                    48
+                  </p>
+                </div>
+                <div class="text-center">
+                  <div class="-mt-20">
+                    <p class="mb-12 mx-2 drop-shadow-glow relative text-xl font-semibold text-gray-900 bg-[#ffc5f7] rounded-2xl py-4 pl-20 pr-20">
+                      chocolate chipless
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="relative hover:opacity-70">
+                <div class="relative w-full overflow-hidden rounded-3xl bg-gray-900 p-1">
+                  <img
+                    src="https://cdn.cosmicjs.com/8f23d5d0-30bc-11ef-adb1-8b946b3a80e4-sprinkles.png"
+                    alt="Sprinkles dozen"
+                    class="rounded-3xl h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <div class="drop-shadow-glow absolute top-5 right-4 overflow-hidden">
+                  <p class="relative text-5xl font-semibold text-[#e9009a] bg-[#fff6e8] rounded-full p-7">
+                    <span class="text-2xl absolute top-5 left-4">$</span>
+                    48
+                  </p>
+                </div>
+                <div class="text-center">
+                  <div class="-mt-20">
+                    <p class="mb-12 mx-2 drop-shadow-glow relative text-xl font-semibold text-gray-900 bg-[#ffc5f7] rounded-2xl py-4 pl-20 pr-20">
+                      sprinkles
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="">
-            <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6">
-              <p class="font-primary pt-5 text-base font-bold text-gray-900 sm:mt-14 sm:text-xl lg:text-lg xl:text-5xl">
+            <div class="text-center md:mx-auto md:max-w-2xl lg:col-span-6">
+              <p class="font-primary pt-5 mt-8 text-2xl font-bold text-gray-900 sm:mt-14 sm:text-5xl">
                 eMix & match
               </p>
             </div>
-            <div class="mt-14 flex justify-center">
-              <a href="#" class="w-1/3 relative">
+            <div class="mt-14 md:flex md:justify-center">
+              <a class="w-1/3 relative">
                 <div class="relative w-full overflow-hidden rounded-3xl bg-gray-900 p-1">
                   <img
                     src="https://cdn.cosmicjs.com/0f699f90-3180-11ef-adb1-8b946b3a80e4-6x6.png"
@@ -124,16 +197,16 @@ const IndexPage = () => (
                   />
                 </div>
 
-                <div class="drop-shadow-glow absolute inset-x-0 top-5 right-6 flex items-end justify-end overflow-hidden">
+                <div class="drop-shadow-glow absolute inset-x-0 top-5 right-4 md:right-6 flex items-end justify-end overflow-hidden">
                   <p class="relative text-5xl font-semibold text-[#e9009a] bg-[#fff6e8] rounded-full p-7">
                     <span class="text-2xl absolute top-5 left-4">$</span>
                     48
                   </p>
                 </div>
-                <div class="absolute ml-[34px] bottom-5">
+                <div class="absolute ml-[20px] md:ml-[34px] bottom-5">
                   <div class="">
                     <Popover className="relative">
-                      <PopoverButton className="hover:opacity-80 drop-shadow-glow flex items-center relative text-xl font-semibold text-gray-900 bg-[#ffc5f7] rounded-2xl py-4 pl-12 pr-12">
+                      <PopoverButton className="hover:opacity-80 drop-shadow-glow flex items-center relative text-xl font-semibold text-gray-900 bg-[#ffc5f7] rounded-2xl py-4 pl-8 pr-8 md:pl-12 md:pr-12">
                         <span>6x6 choose your flavors</span>
                         <ChevronDownIcon
                           className="h-5 w-5"
@@ -170,7 +243,8 @@ const IndexPage = () => (
                   </div>
                 </div>
               </a>
-              <a href="#" class="ml-8 w-1/3 relative">
+              <div class="py-4 md:hidden" />
+              <a class="md:ml-8 w-1/3 relative">
                 <div class="relative w-full overflow-hidden rounded-3xl bg-gray-900 p-1">
                   <img
                     src="https://cdn.cosmicjs.com/0f644860-3180-11ef-adb1-8b946b3a80e4-4x3.png"
@@ -179,16 +253,16 @@ const IndexPage = () => (
                   />
                 </div>
 
-                <div class="drop-shadow-glow absolute inset-x-0 top-5 right-6 flex items-end justify-end overflow-hidden">
+                <div class="drop-shadow-glow absolute inset-x-0 top-5 right-4 md:right-6 flex items-end justify-end overflow-hidden">
                   <p class="relative text-5xl font-semibold text-[#e9009a] bg-[#fff6e8] rounded-full p-7">
                     <span class="text-2xl absolute top-5 left-4">$</span>
                     48
                   </p>
                 </div>
-                <div class="absolute ml-[34px] bottom-5">
+                <div class="absolute ml-[20px] md:ml-[34px] bottom-5">
                   <div class="">
                     <Popover className="relative">
-                      <PopoverButton className="hover:opacity-80 drop-shadow-glow flex items-center relative text-xl font-semibold text-gray-900 bg-[#ffc5f7] rounded-2xl py-4 pl-12 pr-12">
+                      <PopoverButton className="hover:opacity-80 drop-shadow-glow flex items-center relative text-xl font-semibold text-gray-900 bg-[#ffc5f7] rounded-2xl py-4 pl-8 pr-8 md:pl-12 md:pr-12">
                         <span>4x3 choose your flavors</span>
                         <ChevronDownIcon
                           className="h-5 w-5"
@@ -216,11 +290,11 @@ const IndexPage = () => (
             </div>
           </div>
 
-          <div class="p-6 border-4 border-gray-900 relative bg-[#ffeed7] text-gray-900 rounded-3xl sm:mt-28">
-            <p class="font-primary pt-5 text-base font-bold sm:text-xl lg:text-lg xl:text-5xl ">
+          <div class="mt-10 p-6 border-4 border-gray-900 relative bg-[#ffeed7] text-gray-900 rounded-3xl sm:mt-28">
+            <p class="font-primary pt-5 text-2xl font-bold lg:text-5xl">
               how it started
             </p>
-            <p class="mt-6 leading-8">
+            <p class="text-xs mt-6 leading-6 md:text-base md:leading-8">
               Hi 😊 I’m Emily aka eMitch. A few years ago, I decided to perfect
               my chocolate chip cookie recipe. It ended up being a big hit
               amongst my friends & family. In 2020, I started selling my
@@ -233,15 +307,15 @@ const IndexPage = () => (
               forward to feeding people all over the country! Thank you for
               stopping by and please make sure to tag us on the web
               @emitchbakes. I would love to hear your thoughts.{" "}
-              <span class="font-bold text-xl">💋💕😘- eMitch</span>
+              <span class="font-bold md:text-xl">💋💕😘- eMitch</span>
             </p>
           </div>
-          <p class="text-center mt-28 text-gray-500 text-sm">
+          <p class="text-center mt-10 md:mt-28 text-gray-500 text-sm">
             All recipes are eMitch bakes original and have been thoroughly taste
             tested by all my friends and family. Thank you all, by the way 😊{" "}
           </p>
-          <div class="border-t-2 mt-14 max-w-5xl mx-auto border-gray-900" />
-          <p class="text-center mt-16 text-gray-500 text-lg">
+          <div class="border-t-2 mt-10 md:mt-14 max-w-5xl mx-auto border-gray-900" />
+          <p class="text-center mt-10 md:mt-16 text-gray-500 md:text-lg">
             ©2024 eMitch Bakes. All rights reserved. Powered By{" "}
             <a
               href="https://thejxmediagroup.com/"
