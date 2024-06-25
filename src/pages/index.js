@@ -282,7 +282,7 @@ const IndexPage = () => (
               stopping by and please make sure to follow @emitchbakes on
               Instagram and TikTok. Feel free to tag us, we would love to hear
               your thoughts.
-              <span class="font-bold md:text-xl">xoxo- eMitch</span>
+              <span class="font-bold block md:text-xl">xoxo- eMitch</span>
             </p>
           </div>
           <p class="text-center mt-10 md:mt-28 text-gray-500 text-sm">
