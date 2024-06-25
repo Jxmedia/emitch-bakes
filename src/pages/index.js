@@ -3,9 +3,50 @@ import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react"
 import { ChevronDownIcon } from "@heroicons/react/20/solid"
 import Avatar from "../images/avatar-polka-nobg.png"
 import LogoText from "../images/emitch-bakes.png"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>eMitch bakes | homemade cookies</title>
+
+      <meta
+        name="description"
+        content="Hi :) I’m Emily aka eMitch. A few years ago, I decided to perfect my chocolate chip cookie recipe. It ended up being a big hit amongst my friends & family. In 2020, I started selling my signature chocolate chip cookies at my friend’s sub shop here in Tampa, “Mickey’s Subs”. (You all should try it if you’re in the Bay Area, the sandwiches are to die for.) In 2021, eMitch bakes was nominated for Best of the Bay. And in 2024, I decided to take my talents to the web, creating: eMitch bakes online bakery! The cookies are all my own recipe and make for great gifts. I look forward to feeding people all over the country! Thank you for stopping by and please make sure to follow @emitchbakes on Instagram and TikTok. Feel free to tag us, we would love to hear your thoughts."
+      />
+      <meta
+        name="robots"
+        content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+      />
+      <meta
+        property="og:image"
+        content="https://cdn.cosmicjs.com/1e74c9e0-3308-11ef-a504-63e081e4680f-cookie_9004938.png"
+      />
+      <link rel="canonical" href="https://www.emitchbakes.com/" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="eMitch bakes | homemade cookies" />
+      <meta name="keywords" content="homemade cookies" />
+      <meta
+        property="og:description"
+        content="Hi :) I’m Emily aka eMitch. A few years ago, I decided to perfect my chocolate chip cookie recipe. It ended up being a big hit amongst my friends & family. In 2020, I started selling my signature chocolate chip cookies at my friend’s sub shop here in Tampa, “Mickey’s Subs”. (You all should try it if you’re in the Bay Area, the sandwiches are to die for.) In 2021, eMitch bakes was nominated for Best of the Bay. And in 2024, I decided to take my talents to the web, creating: eMitch bakes online bakery! The cookies are all my own recipe and make for great gifts. I look forward to feeding people all over the country! Thank you for stopping by and please make sure to follow @emitchbakes on Instagram and TikTok. Feel free to tag us, we would love to hear your thoughts."
+      />
+      <meta property="og:url" content="https://www.emitchbakes.com/" />
+      <meta property="og:site_name" content="eMitch bakes | homemade cookies" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:description"
+        content="Hi :) I’m Emily aka eMitch. A few years ago, I decided to perfect my chocolate chip cookie recipe. It ended up being a big hit amongst my friends & family. In 2020, I started selling my signature chocolate chip cookies at my friend’s sub shop here in Tampa, “Mickey’s Subs”. (You all should try it if you’re in the Bay Area, the sandwiches are to die for.) In 2021, eMitch bakes was nominated for Best of the Bay. And in 2024, I decided to take my talents to the web, creating: eMitch bakes online bakery! The cookies are all my own recipe and make for great gifts. I look forward to feeding people all over the country! Thank you for stopping by and please make sure to follow @emitchbakes on Instagram and TikTok. Feel free to tag us, we would love to hear your thoughts."
+      />
+      <meta name="twitter:title" content="eMitch bakes | homemade cookies" />
+
+      <link
+        rel="icon"
+        type="image/png"
+        href="https://cdn.cosmicjs.com/1e74c9e0-3308-11ef-a504-63e081e4680f-cookie_9004938.png"
+      />
+    </Helmet>
     <div class="font-primary relative overflow-hidden bg-[#ffc5f7]">
       <div class="relative pb-16 sm:pb-20">
         <main class="mx-auto max-w-7xl px-4 px-6">
@@ -228,24 +269,25 @@ const IndexPage = () => (
               how it started
             </p>
             <p class="text-xs mt-6 leading-6 md:text-base md:leading-8">
-              Hi 😊 I’m Emily aka eMitch. A few years ago, I decided to perfect
+              Hi :) I’m Emily aka eMitch. A few years ago, I decided to perfect
               my chocolate chip cookie recipe. It ended up being a big hit
               amongst my friends & family. In 2020, I started selling my
               signature chocolate chip cookies at my friend’s sub shop here in
               Tampa, “Mickey’s Subs”. (You all should try it if you’re in the
-              Bay Area, the sandwiches are to die for). In 2021, eMitch bakes
-              was nominatted for Best of the Bay. And in 2024, I decided to take
+              Bay Area, the sandwiches are to die for.) In 2021, eMitch bakes
+              was nominated for Best of the Bay. And in 2024, I decided to take
               my talents to the web, creating: eMitch bakes online bakery! The
               cookies are all my own recipe and make for great gifts. I look
               forward to feeding people all over the country! Thank you for
-              stopping by and please make sure to tag us on the web
-              @emitchbakes. I would love to hear your thoughts.{" "}
-              <span class="font-bold md:text-xl">💋💕😘- eMitch</span>
+              stopping by and please make sure to follow @emitchbakes on
+              Instagram and TikTok. Feel free to tag us, we would love to hear
+              your thoughts.
+              <span class="font-bold md:text-xl">xoxo- eMitch</span>
             </p>
           </div>
           <p class="text-center mt-10 md:mt-28 text-gray-500 text-sm">
             All recipes are eMitch bakes original and have been thoroughly taste
-            tested by all my friends and family. Thank you all, by the way 😊{" "}
+            tested by all my friends and family. Thank you all, by the way :){" "}
           </p>
           <div class="border-t-2 mt-10 md:mt-14 max-w-5xl mx-auto border-gray-900" />
           <p class="text-center mt-10 md:mt-16 text-gray-500 md:text-lg">
