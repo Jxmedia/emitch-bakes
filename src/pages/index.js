@@ -55,7 +55,7 @@ const IndexPage = () => (
                   <div class="-ml-4 flex items-center gap-x-4"></div>
                 </div>
                 <h3 class="drop-shadow-glow bg-[#ffc5f7] rounded-2xl py-4 text-center mt-3 text-lg font-semibold leading-6 text-gray-900 hover:opacity-80">
-                  <a href="#">
+                  <a href="https://buy.stripe.com/3cs8yg29ggtA2kw6ou">
                     <span class="absolute inset-0 "></span>
                     chocolate chip
                   </a>
@@ -78,7 +78,7 @@ const IndexPage = () => (
                   <div class="-ml-4 flex items-center gap-x-4"></div>
                 </div>
                 <h3 class="drop-shadow-glow bg-[#ffc5f7] rounded-2xl py-4 text-center mt-3 text-lg font-semibold leading-6 text-gray-900 hover:opacity-80">
-                  <a href="#">
+                  <a href="https://buy.stripe.com/dR6g0I9BI3GOe3e28d">
                     <span class="absolute inset-0 "></span>
                     chocolate chipless
                   </a>
@@ -101,7 +101,7 @@ const IndexPage = () => (
                   <div class="-ml-4 flex items-center gap-x-4"></div>
                 </div>
                 <h3 class="drop-shadow-glow bg-[#ffc5f7] rounded-2xl py-4 text-center mt-3 text-lg font-semibold leading-6 text-gray-900 hover:opacity-80">
-                  <a href="#">
+                  <a href="https://buy.stripe.com/8wMcOw9BIa5c0coaEI">
                     <span class="absolute inset-0 "></span>
                     sprinkles
                   </a>
@@ -147,19 +147,28 @@ const IndexPage = () => (
                     >
                       <div className="z-50 w-screen max-w-sm flex-auto rounded-3xl bg-white p-3 text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                         <div className="text-center relative rounded-lg p-4 hover:bg-[#ffc5f7]">
-                          <a href="#" className="font-semibold text-gray-900">
+                          <a
+                            href="https://buy.stripe.com/dR601K6pwfpwf7icMO"
+                            className="font-semibold text-gray-900"
+                          >
                             chocolate chip/chocolate chipless
                             <span className="absolute inset-0" />
                           </a>
                         </div>
                         <div className="text-center relative rounded-lg p-4 hover:bg-[#ffc5f7]">
-                          <a href="#" className="font-semibold text-gray-900">
+                          <a
+                            href="https://buy.stripe.com/4gw6q8g06918cZacMN"
+                            className="font-semibold text-gray-900"
+                          >
                             chocolate chip/sprinkles
                             <span className="absolute inset-0" />
                           </a>
                         </div>
                         <div className="text-center relative rounded-lg p-4 hover:bg-[#ffc5f7]">
-                          <a href="#" className="font-semibold text-gray-900">
+                          <a
+                            href="https://buy.stripe.com/bIY5m429g3GO8IUaEE"
+                            className="font-semibold text-gray-900"
+                          >
                             chocolate chipless/sprinkles
                             <span className="absolute inset-0" />
                           </a>
@@ -198,7 +207,10 @@ const IndexPage = () => (
                     >
                       <div className="z-50 w-screen max-w-sm flex-auto rounded-3xl bg-white p-3 text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                         <div className="text-center relative rounded-lg p-4 hover:bg-[#ffc5f7]">
-                          <a href="#" className="font-semibold text-gray-900">
+                          <a
+                            href="https://buy.stripe.com/6oE5m44hodho5wIbIL"
+                            className="font-semibold text-gray-900"
+                          >
                             chocolate chip/chocolate chipless/sprinkles
                             <span className="absolute inset-0" />
                           </a>
