@@ -145,7 +145,7 @@ const IndexPage = () => (
                 </div>
                 <img
                   src="https://cdn.cosmicjs.com/8f1b2340-30bc-11ef-adb1-8b946b3a80e4-choc-less.png"
-                  alt="Chocolate chipless dozen"
+                  alt="chipless dozen"
                   class="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
 
@@ -155,7 +155,7 @@ const IndexPage = () => (
                 <h3 class="drop-shadow-glow bg-[#ffc5f7] rounded-2xl py-4 text-center mt-3 text-lg font-semibold leading-6 text-gray-900 hover:opacity-80">
                   <a href="https://buy.stripe.com/dR6g0I9BI3GOe3e28d">
                     <span class="absolute inset-0 "></span>
-                    chocolate chipless
+                    chipless
                   </a>
                 </h3>
               </article>
@@ -226,7 +226,7 @@ const IndexPage = () => (
                             href="https://buy.stripe.com/dR601K6pwfpwf7icMO"
                             className="font-semibold text-gray-900"
                           >
-                            chocolate chip/chocolate chipless
+                            chocolate chip/chipless
                             <span className="absolute inset-0" />
                           </a>
                         </div>
@@ -244,7 +244,7 @@ const IndexPage = () => (
                             href="https://buy.stripe.com/bIY5m429g3GO8IUaEE"
                             className="font-semibold text-gray-900"
                           >
-                            chocolate chipless/sprinkles
+                            chipless/sprinkles
                             <span className="absolute inset-0" />
                           </a>
                         </div>
@@ -286,7 +286,7 @@ const IndexPage = () => (
                             href="https://buy.stripe.com/6oE5m44hodho5wIbIL"
                             className="font-semibold text-gray-900"
                           >
-                            chocolate chip/chocolate chipless/sprinkles
+                            chocolate chip/chipless/sprinkles
                             <span className="absolute inset-0" />
                           </a>
                         </div>
