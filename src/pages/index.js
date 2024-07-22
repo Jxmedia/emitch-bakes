@@ -102,7 +102,17 @@ const IndexPage = () => (
         </main>
       </div>
       <div class="border-t-4 border-black max-w-7xl border-dashed mx-auto" />
-
+      <p class="pt-5 mx-auto max-w-4xl text-center text-xs mt-6 leading-6 md:text-lg md:leading-8">
+        cookies make for great gifts :) if you would like to include a personal
+        note with your order, please email{" "}
+        <a
+          href="mailto:eMitchbakes@gmail.com"
+          class="text-[#e9009a] underline font-medium hover:opacity-70"
+        >
+          eMitchbakes@gmail.com
+        </a>{" "}
+        and let me know what you would like the note to say.
+      </p>
       <div class="relative pb-16 sm:pb-24 lg:pb-32">
         <main class="mx-auto max-w-7xl px-4 px-6">
           <div class="">
