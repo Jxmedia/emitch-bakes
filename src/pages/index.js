@@ -154,8 +154,8 @@ const IndexPage = () => (
                   </p>
                 </div>
                 <img
-                  src="https://cdn.cosmicjs.com/8f1b2340-30bc-11ef-adb1-8b946b3a80e4-choc-less.png"
-                  alt="chipless dozen"
+                  src="https://imgix.cosmicjs.com/3286a640-a349-11ef-b5a0-93db72e2be98-Snickerdoodle.png"
+                  alt="snickerdoodle dozen"
                   class="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
 
@@ -163,9 +163,9 @@ const IndexPage = () => (
                   <div class="-ml-4 flex items-center gap-x-4"></div>
                 </div>
                 <h3 class="drop-shadow-glow bg-[#ffc5f7] rounded-2xl py-4 text-center mt-3 text-lg font-semibold leading-6 text-gray-900 hover:opacity-80">
-                  <a href="https://buy.stripe.com/dR6g0I9BI3GOe3e28d">
+                  <a href="https://buy.stripe.com/00g15O3dkdho3oA6oy">
                     <span class="absolute inset-0 "></span>
-                    chipless
+                    snickerdoodle
                   </a>
                 </h3>
               </article>
@@ -211,7 +211,7 @@ const IndexPage = () => (
                   </p>
                 </div>
                 <img
-                  src="https://cdn.cosmicjs.com/0f699f90-3180-11ef-adb1-8b946b3a80e4-6x6.png"
+                  src="https://imgix.cosmicjs.com/975847e0-a349-11ef-b5a0-93db72e2be98-sprinkles-snickerdoodle.png"
                   alt="6x6"
                   class="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
@@ -233,10 +233,10 @@ const IndexPage = () => (
                       <div className="z-50 w-screen max-w-sm flex-auto rounded-3xl bg-white p-3 text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                         <div className="text-center relative rounded-lg p-4 hover:bg-[#ffc5f7]">
                           <a
-                            href="https://buy.stripe.com/dR601K6pwfpwf7icMO"
+                            href="https://buy.stripe.com/9AQ29SeW2els0co9AI"
                             className="font-semibold text-gray-900"
                           >
-                            chocolate chip/chipless
+                            chocolate chip/snickerdoodle
                             <span className="absolute inset-0" />
                           </a>
                         </div>
@@ -251,10 +251,10 @@ const IndexPage = () => (
                         </div>
                         <div className="text-center relative rounded-lg p-4 hover:bg-[#ffc5f7]">
                           <a
-                            href="https://buy.stripe.com/bIY5m429g3GO8IUaEE"
+                            href="https://buy.stripe.com/14kbKsbJQ9189MYfZ7"
                             className="font-semibold text-gray-900"
                           >
-                            chipless/sprinkles
+                            snickerdoodle/sprinkles
                             <span className="absolute inset-0" />
                           </a>
                         </div>
@@ -271,7 +271,7 @@ const IndexPage = () => (
                   </p>
                 </div>
                 <img
-                  src="https://cdn.cosmicjs.com/0f644860-3180-11ef-adb1-8b946b3a80e4-4x3.png"
+                  src="https://imgix.cosmicjs.com/cbffe520-a349-11ef-b5a0-93db72e2be98-4x3.png"
                   alt="4x3"
                   class="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
@@ -293,10 +293,10 @@ const IndexPage = () => (
                       <div className="z-50 w-screen max-w-sm flex-auto rounded-3xl bg-white p-3 text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                         <div className="text-center relative rounded-lg p-4 hover:bg-[#ffc5f7]">
                           <a
-                            href="https://buy.stripe.com/6oE5m44hodho5wIbIL"
+                            href="https://buy.stripe.com/14kdSA0181yGe3e007"
                             className="font-semibold text-gray-900"
                           >
-                            chocolate chip/chipless/sprinkles
+                            chocolate chip/snickerdoodle/sprinkles
                             <span className="absolute inset-0" />
                           </a>
                         </div>
