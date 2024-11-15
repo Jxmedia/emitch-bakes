@@ -154,7 +154,7 @@ const IndexPage = () => (
                   </p>
                 </div>
                 <img
-                  src="https://imgix.cosmicjs.com/3286a640-a349-11ef-b5a0-93db72e2be98-Snickerdoodle.png"
+                  src="https://imgix.cosmicjs.com/81c68f30-a38b-11ef-b5a0-93db72e2be98-Snickerdoodle-alt.png"
                   alt="snickerdoodle dozen"
                   class="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
@@ -211,7 +211,7 @@ const IndexPage = () => (
                   </p>
                 </div>
                 <img
-                  src="https://imgix.cosmicjs.com/975847e0-a349-11ef-b5a0-93db72e2be98-sprinkles-snickerdoodle.png"
+                  src="https://imgix.cosmicjs.com/81ded220-a38b-11ef-b5a0-93db72e2be98-sprinkles-snickerdoodle.png"
                   alt="6x6"
                   class="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
@@ -271,7 +271,7 @@ const IndexPage = () => (
                   </p>
                 </div>
                 <img
-                  src="https://imgix.cosmicjs.com/cbffe520-a349-11ef-b5a0-93db72e2be98-4x3.png"
+                  src="https://imgix.cosmicjs.com/81d75810-a38b-11ef-b5a0-93db72e2be98-4x3.png"
                   alt="4x3"
                   class="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
